@@ -1995,6 +1995,11 @@ proc setoptions {} {
 }
 
 proc setttkstyle {} {
+    lappend ::auto_path [file join [file dirname [info script]] ttk-breeze]
+    package require ttk::theme::Breeze
+
+    ttk::setTheme Breeze
+
     eval font configure TkDefaultFont [fontflags mainfont]
     eval font configure TkTextFont [fontflags textfont]
     eval font configure TkHeadingFont [fontflags mainfont]

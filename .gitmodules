@@ -2,3 +2,6 @@
 	path = sha1collisiondetection
 	url = https://github.com/cr-marcstevens/sha1collisiondetection.git
 	branch = master
+[submodule "gitk-git/ttk-breeze"]
+	path = gitk-git/ttk-breeze
+	url = https://github.com/MaxPerl/ttk-Breeze
